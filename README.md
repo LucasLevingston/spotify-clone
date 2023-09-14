@@ -1,77 +1,31 @@
-# Full Stack Spotify Clone with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe
+# Full Stack Spotify Clone
 
-![Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-spotify/assets/23248726/2722c7bd-2d8f-44a9-97b9-f2711a8d8b64)
+Este é um projeto que demonstra a criação de um clone do Spotify, incluindo funcionalidades de streaming de música, pagamento com Stripe e armazenamento de dados com Supabase e PostgreSQL.
 
-For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
+## Tecnologias Usadas
 
-This is a repository for a Full Stack Spotify Clone with Next.js 13.4 App Router: React, Tailwind, Supabase, PostgreSQL, Stripe
+- React
+- Next.js
+- Stripe
+- Supabase
+- PostgreSQL
+- Tailwind CSS
 
-[VIDEO TUTORIAL](https://youtu.be/2aeMRB8LL4o)
+## Funcionalidades Principais
 
-Key Features:
+- **Streaming de Música:** Os usuários podem ouvir músicas em streaming diretamente no aplicativo.
 
-- Song upload
-- Stripe integration
-- Tailwind design for sleek UI
-- Tailwind animations and transition effects
-- Full responsiveness for all devices
-- Credential authentication with Supabase
-- Github authentication integration
-- File and image upload using Supabase storage
-- Client form validation and handling using react-hook-form
-- Server error handling with react-toast
-- Play song audio
-- Favorites system
-- Playlists / Liked songs system
-- Advanced Player component
-- Stripe recurring payment integration
-- How to write POST, GET, and DELETE routes in route handlers (app/api)
-- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
-- Handling relations between Server and Child components in a real-time environment
-- Cancelling Stripe subscriptions
+- **Pagamento com Stripe:** Os usuários podem assinar e pagar pelo serviço de streaming usando o Stripe.
 
-### Prerequisites
+- **Armazenamento de Dados:** Os dados dos usuários são armazenados no Supabase, um banco de dados PostgreSQL hospedado.
 
-**Node version 14.x**
+## Configuração e Execução
 
-### Cloning the repository
+Siga estas etapas para configurar e executar o projeto em seu ambiente local:
 
-```shell
-git clone https://github.com/AntonioErdeljac/next13-spotify.git
-```
+1. **Clone o Repositório:**
 
-### Install packages
-
-```shell
-npm i
-```
-
-### Setup .env file
-
-
-```js
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-SUPABASE_SERVICE_ROLE_KEY=
-
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-STRIPE_SECRET_KEY=
-STRIPE_WEBHOOK_SECRET=
-```
-
-### Add SQL Tables
-Use `database.sql` file, create songs and liked_songs table (there is a video tutorial)
-
-### Start the app
-
-```shell
-npm run dev
-```
-
-## Available commands
-
-Running commands with npm `npm run [command]`
-
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app |
+   ```bash
+   git clone https://github.com/LucasLevingston/spotify-clone.git
+   cd spotify-clone
+   ```
